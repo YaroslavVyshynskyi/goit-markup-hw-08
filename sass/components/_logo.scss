@@ -1,0 +1,26 @@
+.logo-part1 {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--logo-part1-color);
+}
+
+.logo-part2--black {
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--logo-part2-color-dark);
+}
+
+.logo-part2--white {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--logo-part2-color-light);
+}

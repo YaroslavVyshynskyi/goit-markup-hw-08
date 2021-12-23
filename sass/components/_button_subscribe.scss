@@ -1,0 +1,16 @@
+.subscribe__button {
+  width: 200px;
+  padding: 10px 28px;
+  margin-left: 12px;
+  position: relative;
+  display: inline-flex;
+}
+
+.subscribe-btn__icon {
+  position: absolute;
+  top: 50%;
+  right: 28px;
+  transform: translateY(-50%);
+  fill: var(--btn-text-color);
+  margin-left: 10px;
+}
