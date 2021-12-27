@@ -1,0 +1,18 @@
+.menu-mob__btn {
+  background-color: transparent;
+  border: none;
+  margin-left: auto;
+  &:focus,
+  &:hover + .menu-mob-icon {
+    fill: #2196f3;
+  }
+  &:hover,
+  &:focus + .menu-mob-icon {
+    fill: #2196f3;
+  }
+}
+
+.menu-mob-icon {
+  border: none;
+  background-color: #fff;
+}
