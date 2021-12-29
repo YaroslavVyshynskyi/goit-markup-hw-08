@@ -1,18 +1,22 @@
-.menu-mob__btn {
-  background-color: transparent;
-  border: none;
-  margin-left: auto;
-  &:focus,
-  &:hover + .menu-mob-icon {
-    fill: #2196f3;
-  }
-  &:hover,
-  &:focus + .menu-mob-icon {
-    fill: #2196f3;
-  }
+.menu-mob {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 5;
+  background-color: #fff;
 }
 
-.menu-mob-icon {
-  border: none;
-  background-color: #fff;
+.menu-mob__container {
+  position: relative;
+  padding: 48px 40px;
+  display: block;
+}
+
+.menu-mob__close {
+  display: block;
+  margin-left: auto;
+  width: 40px;
+  height: 40px;
+  background-color: inherit;
 }

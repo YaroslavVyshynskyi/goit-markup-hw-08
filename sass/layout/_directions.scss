@@ -1,3 +1,9 @@
+.directions__section {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+}
+
 .directions__title {
   font-weight: 700;
   font-size: 36px;

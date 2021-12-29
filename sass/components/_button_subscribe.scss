@@ -1,9 +1,11 @@
 .subscribe__button {
   width: 200px;
   padding: 10px 28px;
-  margin-left: 12px;
+  // margin-left: 12px;
   position: relative;
-  display: inline-flex;
+  // display: inline-flex;
+  display: flex;
+  margin: 20px auto 0;
 }
 
 .subscribe-btn__icon {
