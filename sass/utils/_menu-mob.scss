@@ -17,6 +17,18 @@
   }
 }
 
+.menu-mob.is-hidden {
+  .menu-mob__container {
+    transform: scale(1.5) rotate(180deg);
+    transition: transform 500ms;
+  }
+}
+
+.menu-mob__container {
+  transform: scale(1) rotate(0);
+  transition: transform 500ms;
+}
+
 .menu-mob__close {
   position: absolute;
   top: 10px;
