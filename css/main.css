@@ -706,33 +706,35 @@ img {
 
 .hero__section {
   background-color: #c4c4c4;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../../images/hero-bg/Hero-bg-mob.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/hero-bg/Hero-bg-mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   padding: 118px 0;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
-@media screen and (min-width: 480x) {
+@media screen and (min-width: 480px) {
   .hero__section {
     padding: 118px 60px;
   }
 }
 
-@media screen and (min-width: 480x) and (min-device-pixel-ratio: 2), screen and (min-width: 480x) and (min-resolution: 192dpi), screen and (min-width: 480x) and (min-resolution: 2dppx) {
+@media screen and (min-width: 480px) and (min-device-pixel-ratio: 2), screen and (min-width: 480px) and (min-resolution: 192dpi), screen and (min-width: 480px) and (min-resolution: 2dppx) {
   .hero__section {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/hero-bg/Hero-bg-mob-2x.jpg);
   }
 }
 
-@media screen and (min-width: 768x) {
+@media screen and (min-width: 768px) {
   .hero__section {
     padding: 118px 204px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/hero-bg/Hero-bg-tab.jpg);
   }
 }
 
-@media screen and (min-width: 768x) and (min-device-pixel-ratio: 2), screen and (min-width: 768x) and (min-resolution: 192dpi), screen and (min-width: 768x) and (min-resolution: 2dppx) {
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .hero__section {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/hero-bg/Hero-bg-tab-2x.jpg);
   }
@@ -752,22 +754,9 @@ img {
 }
 
 .hero__container {
-  display: block;
-}
-
-@media screen and (min-width: 480px) {
-  .hero__container {
-    width: 360px;
-    height: 164px;
-    padding: 0;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .hero__container {
-    width: 696px;
-    height: 200px;
-  }
+  width: 100%;
+  max-width: 696px;
+  padding: 0;
 }
 
 .hero__title {
