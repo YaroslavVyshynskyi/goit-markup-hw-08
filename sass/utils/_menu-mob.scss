@@ -5,6 +5,7 @@
   height: 100vh;
   z-index: 5;
   background-color: #fff;
+  transition:translate: (0);
   .menu-mob__container {
     position: relative;
     height: 100%;
@@ -17,17 +18,17 @@
   }
 }
 
-.menu-mob.is-hidden {
-  .menu-mob__container {
-    transform: scale(1.5) rotate(180deg);
-    transition: transform 500ms;
-  }
-}
+// .menu-mob.is-hidden {
+//   .menu-mob__container {
+//     transform: scale(1.5) rotate(180deg);
+//     transition: transform 500ms;
+//   }
+// }
 
-.menu-mob__container {
-  transform: scale(1) rotate(0);
-  transition: transform 500ms;
-}
+// .menu-mob__container {
+//   transform: scale(1) rotate(0);
+//   transition: transform 500ms;
+// }
 
 .menu-mob__close {
   position: absolute;
