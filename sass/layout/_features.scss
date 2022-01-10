@@ -2,12 +2,11 @@
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -30px;
     margin-top: -30px;
+    margin-left: -30px;
   }
   @media screen and (min-width: 1200px) {
     display: flex;
-    margin-left: -30px;
   }
 }
 
@@ -17,13 +16,15 @@
       margin-top: 30px;
     }
   }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
     flex-basis: calc(100% / 2 - 30px);
     margin-top: 30px;
     margin-left: 30px;
   }
   @media screen and (min-width: 1200px) {
-    margin-top: 0;
+    &:not(:first-child) {
+      margin-left: 30px;
+    }
   }
 }
 

@@ -18,6 +18,7 @@
 .directions__list {
   display: flex;
   padding-left: 0px;
+  margin: 0;
 }
 
 .directions__item:not(:last-child) {
